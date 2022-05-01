@@ -4,7 +4,7 @@ import "./Modal.css"
 const Modal = ({winner,resetHandler}) =>{
     return(
         <div className={`modal`}>
-            <h1> PLAYER {winner} , YOU WN </h1>
+            <h1> {winner}</h1>
             <button onClick={resetHandler}>Play Again</button>
         </div>
     )
